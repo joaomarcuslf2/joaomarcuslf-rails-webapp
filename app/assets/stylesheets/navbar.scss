@@ -1,0 +1,31 @@
+@import "variables";
+
+.navbar-app {
+  background: $primary-color;
+
+  .main-link {
+    color: $secondary-color;
+    opacity: .6;
+
+    &:hover {
+      color: $secondary-color;
+      opacity: .9;
+    }
+  }
+
+  .tab-link {
+    color: $secondary-color !important;
+    opacity: .5 !important;
+    border-bottom: 3px transparent solid;
+
+    &:hover {
+      color: $secondary-color;
+      opacity: .8 !important;
+      text-decoration: none !important;
+
+      @media (min-width: 770px) {
+        border-bottom: 3px #C5CAE9 solid;
+      }
+    }
+  }
+}

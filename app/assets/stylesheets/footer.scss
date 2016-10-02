@@ -1,0 +1,26 @@
+@import "variables";
+
+.footer {
+  background: rgba(0, 10, 114, .8);
+  color: $secondary-color;
+
+  a {
+    color: $secondary-color;
+    border: 1px transparent solid;
+    border-radius: 45px;
+    padding: 5px;
+
+    &:hover {
+      color: $indigo-100;
+    }
+  }
+}
+
+.footer-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}

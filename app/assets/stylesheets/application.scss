@@ -12,63 +12,27 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 @import "bootstrap-reset";
-
-$main-color: #3F51B5;
-$secondary-color: #E8EAF6;
+@import "variables";
+@import "footer";
+@import "navbar";
 
 body {
   margin-top: 60px;
 }
 
-.navbar-app {
-  background: $main-color;
-
-  .main-link {
-    color: $secondary-color;
-    opacity: .6;
-
-    &:hover {
-      color: $secondary-color;
-      opacity: .9;
-    }
-  }
-
-  .tab-link {
-    color: $secondary-color !important;
-    opacity: .5 !important;
-    border-bottom: 3px transparent solid;
-
-    &:hover {
-      color: $secondary-color;
-      opacity: .8 !important;
-      text-decoration: none !important;
-
-      @media (min-width: 770px) {
-        border-bottom: 3px #C5CAE9 solid;
-      }
-    }
-  }
-}
-
-.footer {
-  background: rgba(0, 10, 114, .8);
-  color: $secondary-color;
-}
-
-.footer-fixed-bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 5px;
-}
-
 .material-icon {
   background-color: $secondary-color !important;
+}
+
+.profile-image {
+  background: $primary-color;
+  border: $primary-color 1px solid;
+  border-radius: 180px;
 }
