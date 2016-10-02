@@ -5,9 +5,8 @@
 	Rails: 5.0.1
 
 ##Description:
-	This is my **Rails** Application, the original one is [@joaomarcuslf - Static Webapp](http://joaomarcuslf.github.io/).
-	
-	In this application, I will use some more [**gems**](#dependencies).
+This is my **Rails** Application, the original one is **[@joaomarcuslf - Static Webapp](http://joaomarcuslf.github.io/)**.
+In this application, I will use some more **[gems](#dependencies)**.
 	
 
 ##Dependencies:
