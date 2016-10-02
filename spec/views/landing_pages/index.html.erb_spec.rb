@@ -7,13 +7,13 @@ RSpec.describe "landing_pages/index.html.erb", type: :view do
       visit landing_pages_index_path
     end
 
-    it 'should display default generated text' do
+    it 'should display and welcome text when entering the page' do
 
       expect(page).to have_text 'Hello, folks!'
     end
 
-    it 'should go back to index page' do
-      click_link 'Home'
+    it 'should go back to index page when main link is clicked' do
+      click_link '@joaomarcuslf'
 
       expect(page).to have_text 'Hello, folks!'
     end
