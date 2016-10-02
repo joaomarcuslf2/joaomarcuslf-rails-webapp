@@ -15,3 +15,17 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(() => {
+  let checkScroll = () => {
+      let top = $('.navbar').offset().top;
+
+      if(top!==0){
+          $('.navbar').addClass("navbar-transluscide");
+      }else{
+          $('.navbar').removeClass("navbar-transluscide");
+      }
+  }
+
+  $(document).scroll(checkScroll);
+});

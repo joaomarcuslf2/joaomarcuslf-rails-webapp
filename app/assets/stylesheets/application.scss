@@ -23,8 +23,20 @@
 @import "footer";
 @import "navbar";
 
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
 body {
-  margin-top: 60px;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: $indigo-50;
+  margin: 60px 0;
+  font-size: 18px;
 }
 
 .material-icon {

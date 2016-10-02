@@ -4,7 +4,7 @@ RSpec.describe "landing_pages/index.html.erb", type: :view do
   describe 'Entering the Index page' do
 
     before :each do
-      visit landing_pages_index_path
+      visit home_path
     end
 
     it 'should display and welcome text when entering the page' do
