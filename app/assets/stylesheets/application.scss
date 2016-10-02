@@ -17,6 +17,50 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$main-color: #000A72;
+$secondary-color: #DEDFF0;
+
 body {
   margin-top: 60px;
+}
+
+.navbar-app {
+  background: $main-color;
+
+  .main-link {
+    color: $secondary-color;
+    opacity: .6;
+
+    &:hover {
+      color: $secondary-color;
+      opacity: .9;
+    }
+  }
+
+  .tab-link {
+    color: $secondary-color !important;
+    opacity: .5 !important;
+    border-bottom: 3px transparent solid;
+
+    &:hover {
+      color: $secondary-color;
+      opacity: .8 !important;
+      text-decoration: none !important;
+      border-bottom: 3px rgba(64, 231, 226, 0.9) solid;
+    }
+  }
+}
+
+.footer {
+  background: rgba(0, 10, 114, .8);
+  color: $secondary-color;
+}
+
+.footer-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
 }
