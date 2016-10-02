@@ -23,6 +23,7 @@ gem 'sprockets-es6', '~> 0.9.2'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
+  gem 'capybara'
 	gem 'guard-rspec', '~> 4.7'
 	gem 'factory_girl_rails', '~> 4.7.0'
 end
