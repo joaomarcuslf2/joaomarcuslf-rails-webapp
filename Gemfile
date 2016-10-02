@@ -25,7 +25,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'capybara'
 	gem 'guard-rspec', '~> 4.7'
-	gem 'factory_girl_rails', '~> 4.7.0'
+  gem 'factory_girl_rails', '~> 4.7.0'
+  gem 'guard-livereload', '~> 2.5'
 end
 
 group :development do
