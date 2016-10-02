@@ -16,9 +16,10 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "bootstrap-reset";
 
-$main-color: #000A72;
-$secondary-color: #DEDFF0;
+$main-color: #3F51B5;
+$secondary-color: #E8EAF6;
 
 body {
   margin-top: 60px;
@@ -46,7 +47,10 @@ body {
       color: $secondary-color;
       opacity: .8 !important;
       text-decoration: none !important;
-      border-bottom: 3px rgba(64, 231, 226, 0.9) solid;
+
+      @media (min-width: 770px) {
+        border-bottom: 3px #C5CAE9 solid;
+      }
     }
   }
 }
@@ -63,4 +67,8 @@ body {
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
+}
+
+.material-icon {
+  background-color: $secondary-color !important;
 }
