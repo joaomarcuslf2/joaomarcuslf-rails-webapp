@@ -13,6 +13,7 @@ gem 'responders', '~> 2.3.0'
 # Front-end
 
 gem 'sass-rails', '~> 5.0'
+gem "autoprefixer-rails"
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
