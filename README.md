@@ -6,7 +6,9 @@
 
 ##Description:
 	This is my **Rails** Application, the original one is [@joaomarcuslf - Static Webapp](http://joaomarcuslf.github.io/).
+	
 	In this application, I will use some more [**gems**](#dependencies).
+	
 
 ##Dependencies:
  - devise
