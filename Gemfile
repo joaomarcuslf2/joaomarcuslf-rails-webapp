@@ -26,13 +26,13 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
   gem 'capybara'
-	gem 'guard-rspec', '~> 4.7'
+  gem 'guard-rspec', '~> 4.7'
   gem 'factory_girl_rails', '~> 4.7.0'
   gem 'guard-livereload', '~> 2.5'
 end
 
 group :development do
-	gem 'pry-rails', '~> 0.3.4'
+  gem 'pry-rails', '~> 0.3.4'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
