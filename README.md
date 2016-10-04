@@ -8,6 +8,12 @@
 This is my **Rails** Application, the original one is **[@joaomarcuslf - Static Webapp](http://joaomarcuslf.github.io/)**.
 In this application, I will use some more **[gems](#dependencies)**.
 
+##Getting started:
+To get started run into your console:
+
+	$ bundle install
+	$ rake db:migrate
+
 ##TODO:
 
 - [x] Set ES6 in place of Coffeescript
