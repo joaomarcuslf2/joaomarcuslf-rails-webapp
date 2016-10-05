@@ -9,6 +9,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2.0'
 gem 'responders', '~> 2.3.0'
+gem 'rails_12factor', group: :production
 
 # Front-end
 
