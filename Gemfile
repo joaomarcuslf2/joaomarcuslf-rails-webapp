@@ -22,6 +22,7 @@ gem 'simple_form', '~> 3.3.1'
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6', '~> 0.9.2'
 gem 'font-awesome-rails'
+gem 'react-rails', '~> 1.8.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
