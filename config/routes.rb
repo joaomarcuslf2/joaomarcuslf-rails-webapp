@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get '/about', to: 'landing_pages#about', as: 'about', format: false
+  root 'landing_pages#index'
 
   get '/home', to: 'landing_pages#index', as: 'home', format: false
-
-  root 'landing_pages#index'
+  get '/about', to: 'landing_pages#about', as: 'about', format: false
+  get '/portfolio', to: 'landing_pages#portfolio', as: 'portfolio', format: false
 end
