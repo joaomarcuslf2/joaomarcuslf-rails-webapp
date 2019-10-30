@@ -7,7 +7,7 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'devise', '~> 4.2.0'
+gem 'devise', '~> 4.7.1'
 gem 'responders', '~> 2.3.0'
 gem 'rails_12factor', group: :production
 
