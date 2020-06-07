@@ -18,7 +18,7 @@ gem "autoprefixer-rails"
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
-gem 'simple_form', '~> 3.3.1'
+gem 'simple_form', '~> 5.0.0'
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6', '~> 0.9.2'
 gem 'font-awesome-rails'
